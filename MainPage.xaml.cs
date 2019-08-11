@@ -11,7 +11,7 @@ namespace DefuseBombs1
     {
 
         static string bomb = new Random().Next(1, 6).ToString(); //Create a String variable called bomb with a random number from 1 to 5 to randomly assign the button with the bomb.
-        static int scores = 0;
+        static int scores = 0; //Create an integer variable to represent the score.
         public MainPage()
         {
             InitializeComponent();
